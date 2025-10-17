@@ -1,0 +1,828 @@
+* {
+  margin: 0%;
+}
+.headermenu {
+  background-color: #f5f5f7cc;
+  width: 100%;
+  height: 44px;
+  display: flex;
+  gap: 24px;
+  color: black;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+}
+.ios {
+  background-image: url(./Vector.png);
+  background-position: center;
+  background-size: cover;
+  width: 12.97px;
+  height: 15.94px;
+}
+.ios12 {
+  background-image: url(./search.png);
+  background-position: center;
+  background-size: cover;
+  width: 14.08px;
+  height: 14.08px;
+}
+.ios13 {
+  background-image: url(./market.png);
+  background-position: center;
+  background-size: cover;
+  width: 12.94px;
+  height: 14.91px;
+}
+.donate {
+  color: #1d1d1f;
+  background-color: white;
+  font-size: 14px;
+  width: 100%;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  background-image: url(./Background.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 692px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.apple {
+  font-size: 52px;
+  color: #f5f5f7;
+  margin-top: 55px;
+}
+.hello {
+  font-size: 24px;
+  color: #f5f5f7;
+  margin-top: 16px;
+}
+.buy {
+  background-color: #0071e3;
+  color: white;
+  font-size: 16px;
+  width: 123px;
+  height: 44px;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy1 {
+  width: 68px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid #2997ff;
+  color: #2997ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy2 {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+.iphone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.second {
+  height: 692px;
+  width: 100%;
+  background-image: url(./Figure.png);
+  background-position: center;
+  background-size: cover;
+  margin-top: 12px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.aa {
+  font-size: 52px;
+  color: #f5f5f7;
+  margin-top: 55px;
+}
+.aaa {
+  font-size: 24px;
+  color: #f5f5f7;
+  margin-top: 16px;
+}
+
+.buy3 {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  width: 123px;
+  height: 44px;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy4 {
+  width: 68px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy5 {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+.iphone2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.thirth {
+  background-image: url(./figure1.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 692px;
+  margin-top: 12px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.gift {
+  font-size: 52px;
+  font-weight: 600;
+  color: black;
+}
+.make {
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+  margin-top: 12px;
+}
+.shop {
+  width: 114px;
+  height: 44px;
+  color: white;
+  background-color: #0071e3;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+.gift1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 446px;
+}
+
+.air {
+  background-image: url(./figure2.png);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 580px;
+}
+
+.ipad {
+  background-image: url(./Heading\ 3.png);
+  background-position: center;
+  background-size: cover;
+  width: 430px;
+  height: 33px;
+  margin-top: 58px;
+}
+.two {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1d1d1f;
+  margin-top: 9px;
+}
+.more {
+  width: 115px;
+  height: 40px;
+  background-color: #0071e3;
+  color: white;
+  border-radius: 999px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buyy {
+  width: 68px;
+  height: 40px;
+  border: 1px solid #2997ff;
+  color: #2997ff;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.morebuy {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+.ipadair {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.helloapple {
+  font-size: 14px;
+  background: linear-gradient(90deg, #0090f7, #ba62fc, #f2416b, #f55600);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  justify-content: center;
+  margin-top: 324px;
+}
+.iconic {
+  background-image: url(./iconic.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 580px;
+  display: none;
+}
+.iconic1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.iconic2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #f5f5f7;
+  margin-top: 357px;
+}
+.iconic3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #f5f5f7;
+  margin-top: 4px;
+}
+.pro2 {
+  background-image: url(./figure3.png);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 580px;
+}
+.niilber {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.airpods {
+  font-size: 36px;
+  color: #f5f5f7;
+}
+.now {
+  font-size: 18px;
+  color: #f5f5f7;
+  margin-top: 2px;
+}
+.learnmore {
+  width: 115px;
+  height: 40px;
+  background-color: #0071e3;
+  border-radius: 999px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy11 {
+  width: 68px;
+  height: 40px;
+  border: 1px solid #2997ff;
+  border-radius: 999px;
+  color: #2997ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.egnee {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-top: 10px;
+}
+.airpodspro2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 401px;
+}
+.iwatch {
+  background-image: url(./Figure4.png);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 580px;
+}
+.iwatch10 {
+  background-image: url(./iwatch2.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 580px;
+  display: none;
+}
+.applelogo {
+  background-image: url(./Vector.png);
+  background-position: center;
+  background-size: cover;
+  width: 26.35px;
+  height: 32px;
+  color: #000000cc;
+}
+.applelogo1 {
+  font-size: 32px;
+  color: black;
+}
+.applelogo2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-top: 58px;
+}
+.learnn {
+  width: 115px;
+  height: 40px;
+  background-color: #0071e3;
+  color: white;
+  border-radius: 999px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buyy1 {
+  width: 68px;
+  height: 40px;
+  border: 1px solid #2997ff;
+  color: #2997ff;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.learnbuy1 {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+.iwatch1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.macbook {
+  background-image: url(./Figure5.png);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 580px;
+}
+.small-business {
+  background-image: url(./teach.png);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 580px;
+  display: none;
+}
+.small-business1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.small-business2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-top: 47px;
+}
+.small-business3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1d1d1f;
+}
+.hard {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1d1d1f;
+  margin-top: 4px;
+}
+.more10 {
+  width: 115px;
+  height: 40px;
+  margin-top: 16px;
+  background-color: #0071e3;
+  border-radius: 999px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.macc {
+  font-size: 36px;
+  font-weight: 600;
+  color: #1d1d1f;
+  margin-top: 48px;
+}
+.lean {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1d1d1f;
+  margin-top: 2px;
+}
+.learnbuy2 {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+}
+.macbook1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tradein {
+  background-image: url(./Figure6.png);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 580px;
+}
+.credit {
+  font-size: 18px;
+  color: #1d1d1f;
+  font-weight: 400;
+}
+.estimate {
+  width: 167px;
+  height: 40px;
+  background-color: #0071e3;
+  color: white;
+  font-size: 16px;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+.tradeinn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carrier-deals {
+  background-image: url(./carrier.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 580px;
+  display: none;
+}
+.atapple {
+  font-size: 30px;
+  color: #1d1d1f;
+  font-weight: 700;
+}
+.required {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1d1d1f;
+  margin-top: 4px;
+}
+.find {
+  width: 126px;
+  height: 36px;
+  background-color: #0071e3;
+  font-size: 14px;
+  border-radius: 999px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+.tradeinn1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 296px;
+  margin-left: 26px;
+}
+.card {
+  background-image: url(./Figure7.png);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 580px;
+}
+.more1 {
+  width: 115px;
+  height: 40px;
+  background-color: #0071e3;
+  color: white;
+  border-radius: 999px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.apply {
+  width: 112px;
+  height: 40px;
+  border: 1px solid #2997ff;
+  color: #2997ff;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.learnbuy3 {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+.carddd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.movie {
+  margin-top: 12px;
+  display: flex;
+  gap: 15px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  flex-direction: row;
+  scroll-behavior: smooth;
+}
+#napoleon {
+  background-image: url(./napoleon.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.stream {
+  width: 133px;
+  height: 44px;
+  background-color: white;
+  border-radius: 999px;
+  color: black;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  color: white;
+  font-size: 17px;
+}
+.ngtgl {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 566px;
+  margin-left: 70px;
+  gap: 20px;
+}
+.scroll {
+  background-position: center;
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
+  scroll-snap-align: end;
+  flex-shrink: 0;
+  position: relative;
+  scroll-snap-align: center;
+}
+#monkey {
+  background-image: url(./bad-monkey.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#instigators {
+  background-image: url(./instigators.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#kpop {
+  background-image: url(./k-pop-idols.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#seasonpass {
+  background-image: url(./season-pass.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#innocent {
+  background-image: url(./pressumed-innocent.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#pachinko {
+  background-image: url(./pachinko.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#friday-night {
+  background-image: url(./baseball.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#lady {
+  background-image: url(./lady-in-the-lake.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#morning {
+  background-image: url(./morning-show.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.bullets {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  translate: 0 -50%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.bullet {
+  background-color: grey;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+}
+@media screen and (max-width: 767px) {
+  .headermenu {
+    width: 390px;
+    height: 48px;
+  }
+  .ios2,
+  .ios3,
+  .ios4,
+  .ios5,
+  .ios6,
+  .ios7,
+  .ios8,
+  .ios9,
+  .ios10,
+  .ios11 {
+    display: none;
+  }
+  .ios {
+    position: absolute;
+    left: 17px;
+  }
+  .ios1 {
+    position: absolute;
+    right: 21px;
+    bottom: 17px;
+  }
+  .ios12 {
+    position: absolute;
+    right: 102px;
+    bottom: 17px;
+  }
+  .ios13 {
+    position: absolute;
+    right: 64.44px;
+    bottom: 17px;
+  }
+  .niilber {
+    flex-direction: column;
+    width: 767px;
+    margin-left: 0;
+  }
+  .donate {
+    width: 390px;
+    height: 73px;
+    font-size: 14px;
+  }
+  .head {
+    width: 390px;
+    height: 500px;
+    background-image: url(./16proo.jpg);
+  }
+  .iphone {
+    position: absolute;
+    top: 380px;
+    left: 95.5px;
+  }
+  .apple {
+    font-size: 30px;
+  }
+  .hello {
+    font-size: 18px;
+    margin-top: 4px;
+  }
+  .buy {
+    width: 107px;
+    height: 36px;
+    font-size: 14px;
+  }
+  .buy1 {
+    width: 66px;
+    height: 36px;
+    font-size: 14px;
+  }
+  .buy2 {
+    margin-top: 16px;
+    gap: 12px;
+  }
+  .second {
+    width: 390px;
+    height: 500px;
+    background-image: url(./16pro.jpg);
+  }
+  .aa {
+    font-size: 30px;
+  }
+  .aaa {
+    font-size: 18px;
+    margin-top: 4px;
+  }
+  .buy3 {
+    width: 107px;
+    height: 36px;
+    font-size: 14px;
+  }
+  .buy4 {
+    width: 66px;
+    height: 36px;
+    font-size: 14px;
+  }
+  .buy5 {
+    margin-top: 16px;
+    gap: 12px;
+  }
+  .thirth {
+    display: none;
+  }
+
+  .movie {
+    gap: 15.5px;
+    width: 390px;
+  }
+  .scroll {
+    width: 274px;
+    height: 495px;
+  }
+  .stream {
+    display: none;
+  }
+  .bullets {
+    width: 220px;
+    margin-left: 100px;
+  }
+  .card {
+    display: none;
+  }
+  .carrier-deals {
+    display: block;
+  }
+  .iconic {
+    display: block;
+  }
+  .pro2 {
+    display: none;
+  }
+  .iwatch {
+    display: none;
+  }
+  .iwatch10 {
+    display: block;
+  }
+  .small-business {
+    display: block;
+  }
+}
