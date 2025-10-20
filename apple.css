@@ -20,6 +20,14 @@
   width: 12.97px;
   height: 15.94px;
 }
+.zuraas {
+  background-image: url(./SVG.png);
+  background-position: center;
+  background-size: cover;
+  width: 12.97px;
+  height: 15.94px;
+  display: none;
+}
 .ios12 {
   background-image: url(./search.png);
   background-position: center;
@@ -40,6 +48,23 @@
   font-size: 14px;
   width: 100%;
   height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.donate1 {
+  color: #1d1d1f;
+  background-color: white;
+  font-size: 14px;
+  width: 100%;
+  height: 73px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+#adadad {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -704,9 +729,7 @@
     left: 17px;
   }
   .ios1 {
-    position: absolute;
-    right: 21px;
-    bottom: 17px;
+    display: none;
   }
   .ios12 {
     position: absolute;
@@ -718,16 +741,30 @@
     right: 64.44px;
     bottom: 17px;
   }
+  .zuraas {
+    display: block;
+    position: absolute;
+    right: 28px;
+    bottom: 15px;
+  }
   .niilber {
     flex-direction: column;
     width: 767px;
     margin-left: 0;
   }
   .donate {
-    width: 390px;
-    height: 73px;
-    font-size: 14px;
+    display: none;
   }
+  .donate1 {
+    display: block;
+    width: 390px;
+    margin-top: 12px;
+    margin-left: 31px;
+  }
+  #adadad {
+    margin-right: 100px;
+  }
+
   .head {
     width: 390px;
     height: 500px;
@@ -824,5 +861,56 @@
   }
   .small-business {
     display: block;
+  }
+  #napoleon {
+    background-image: url(./phone1.jpg);
+    width: 274px;
+    height: 495px;
+  }
+  #monkey {
+    background-image: url(./phone2.jpg);
+    width: 274px;
+    height: 495px;
+  }
+  #instigators {
+    background-image: url(./phone3.jpg);
+    width: 274px;
+    height: 495px;
+  }
+  #kpop {
+    background-image: url(./phone4.jpg);
+    width: 274px;
+    height: 495px;
+  }
+  #seasonpass {
+    background-image: url(./phone5.jpg);
+    width: 274px;
+    height: 495px;
+  }
+  #innocent {
+    background-image: url(./phone6.jpg);
+    width: 274px;
+    height: 495px;
+  }
+  #pachinko {
+    background-image: url(./phone7.jpg);
+    width: 274px;
+    height: 495px;
+  }
+  #friday-night {
+    background-image: url(./phone8.jpg);
+    width: 274px;
+    height: 495px;
+  }
+  #lady {
+    display: none;
+  }
+  #morning {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) (max-width: 1024px) {
+  .headermenu {
+    width: 768px;
   }
 }
