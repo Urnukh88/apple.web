@@ -11,7 +11,7 @@
   font-size: 12px;
   justify-content: center;
   align-items: center;
-  position: sticky;
+  position: fixed;
 }
 .ios {
   background-image: url(./Vector.png);
@@ -51,6 +51,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 40px;
 }
 .donate1 {
   color: #1d1d1f;
@@ -58,6 +59,17 @@
   font-size: 14px;
   width: 100%;
   height: 73px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.donate2 {
+  color: #1d1d1f;
+  background-color: white;
+  font-size: 14px;
+  height: 48px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -222,7 +234,15 @@
   width: 50%;
   height: 580px;
 }
-
+.air1 {
+  background-image: url(./figure2.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 580px;
+  margin-top: 12px;
+  display: none;
+}
 .ipad {
   background-image: url(./Heading\ 3.png);
   background-position: center;
@@ -262,6 +282,7 @@
   display: flex;
   gap: 16px;
   margin-top: 20px;
+  cursor: pointer;
 }
 .ipadair {
   display: flex;
@@ -370,6 +391,14 @@
   height: 580px;
 }
 .iwatch10 {
+  background-image: url(./iwatch2.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 580px;
+  display: none;
+}
+.iwatch11 {
   background-image: url(./iwatch2.jpg);
   background-position: center;
   background-size: cover;
@@ -707,9 +736,15 @@
   width: 8px;
   border-radius: 50%;
 }
+.bullet1 {
+  background-color: grey;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+}
 @media screen and (max-width: 767px) {
   .headermenu {
-    width: 390px;
+    width: 100%;
     height: 48px;
   }
   .ios2,
@@ -749,7 +784,6 @@
   }
   .niilber {
     flex-direction: column;
-    width: 767px;
     margin-left: 0;
   }
   .donate {
@@ -757,23 +791,23 @@
   }
   .donate1 {
     display: block;
-    width: 390px;
-    margin-top: 12px;
-    margin-left: 31px;
+    display: flex;
+    align-items: center;
+    padding-top: 38px;
   }
   #adadad {
-    margin-right: 100px;
+    display: flex;
+    align-items: center;
   }
 
   .head {
-    width: 390px;
+    width: 100%;
     height: 500px;
     background-image: url(./16proo.jpg);
   }
   .iphone {
-    position: absolute;
-    top: 380px;
-    left: 95.5px;
+    display: flex;
+    padding-top: 270px;
   }
   .apple {
     font-size: 30px;
@@ -797,7 +831,7 @@
     gap: 12px;
   }
   .second {
-    width: 390px;
+    width: 100%;
     height: 500px;
     background-image: url(./16pro.jpg);
   }
@@ -825,30 +859,35 @@
   .thirth {
     display: none;
   }
-
+  .air {
+    width: 100%;
+  }
+  .macbook {
+    width: 100%;
+  }
   .movie {
     gap: 15.5px;
-    width: 390px;
+    width: 100%;
   }
   .scroll {
     width: 274px;
     height: 495px;
   }
-  .stream {
-    display: none;
-  }
+
   .bullets {
     width: 220px;
-    margin-left: 100px;
+    margin-left: 32%;
   }
   .card {
     display: none;
   }
   .carrier-deals {
     display: block;
+    width: 100%;
   }
   .iconic {
     display: block;
+    width: 100%;
   }
   .pro2 {
     display: none;
@@ -858,9 +897,14 @@
   }
   .iwatch10 {
     display: block;
+    width: 100%;
   }
   .small-business {
     display: block;
+    width: 100%;
+  }
+  .tradein {
+    width: 100%;
   }
   #napoleon {
     background-image: url(./phone1.jpg);
@@ -908,9 +952,149 @@
   #morning {
     display: none;
   }
+  .ngtgl {
+    display: none;
+  }
+  .bullet1 {
+    background-color: black;
+  }
 }
-@media screen and (min-width: 768px) and(max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .headermenu {
-    width: 768px;
+    width: 100%;
+    height: 48px;
+  }
+  .ios2,
+  .ios3,
+  .ios4,
+  .ios5,
+  .ios6,
+  .ios7,
+  .ios8,
+  .ios9,
+  .ios10,
+  .ios11 {
+    display: none;
+  }
+  .ios {
+    position: absolute;
+    left: 17px;
+  }
+  .ios1 {
+    display: none;
+  }
+  .ios12 {
+    position: absolute;
+    right: 102px;
+    bottom: 17px;
+  }
+  .ios13 {
+    position: absolute;
+    right: 64.44px;
+    bottom: 17px;
+  }
+  .zuraas {
+    display: block;
+    position: absolute;
+    right: 28px;
+    bottom: 15px;
+  }
+  .donate {
+    display: none;
+  }
+  .donate2 {
+    display: block;
+    display: flex;
+    padding-top: 50px;
+  }
+  .head {
+    background-image: url(./tablet.jpg);
+    width: 100%;
+    height: 650px;
+    margin-top: 12px;
+  }
+  .second {
+    background-image: url(./tabelt3.jpg);
+    width: 100%;
+    height: 650px;
+  }
+  .thirth {
+    display: none;
+  }
+  .air {
+    display: none;
+  }
+  .air1 {
+    display: block;
+  }
+  .pro2 {
+    display: none;
+  }
+  .iconic {
+    display: block;
+  }
+  .iwatch {
+    display: none;
+  }
+
+  .iwatch11 {
+    display: block;
+  }
+  .small-business {
+    display: block;
+  }
+  .carrier-deals {
+    display: block;
+  }
+  .card {
+    display: none;
+  }
+  #napoleon {
+    width: 689px;
+    height: 368px;
+  }
+  .ngtgl {
+    margin-top: 42%;
+    margin-left: 5%;
+  }
+  #monkey {
+    width: 689px;
+    height: 368px;
+  }
+  #instigators {
+    width: 689px;
+    height: 368px;
+  }
+  #kpop {
+    width: 689px;
+    height: 368px;
+  }
+  #seasonpass {
+    width: 689px;
+    height: 368px;
+  }
+  #innocent {
+    width: 689px;
+    height: 368px;
+  }
+  #pachinko {
+    width: 689px;
+    height: 368px;
+  }
+  #friday-night {
+    width: 689px;
+    height: 368px;
+  }
+  #lady {
+    width: 689px;
+    height: 368px;
+  }
+  #morning {
+    width: 689px;
+    height: 368px;
+  }
+  .movie {
+    display: flex;
+    gap: 16px;
   }
 }

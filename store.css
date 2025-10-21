@@ -974,3 +974,87 @@
   align-items: center;
   gap: 8px;
 }
+@media screen and (max-width: 767px) {
+  .headermenu {
+    width: 100%;
+    height: 48px;
+  }
+  .ios2,
+  .ios3,
+  .ios4,
+  .ios5,
+  .ios6,
+  .ios7,
+  .ios8,
+  .ios9,
+  .ios10,
+  .ios11 {
+    display: none;
+  }
+  .ios {
+    position: absolute;
+    left: 17px;
+  }
+  .ios1 {
+    display: none;
+  }
+  .ios12 {
+    position: absolute;
+    right: 62px;
+    bottom: 17px;
+  }
+  .ios13 {
+    position: absolute;
+    right: 24.44px;
+    bottom: 17px;
+  }
+  .textt {
+    display: none;
+  }
+  .picture {
+    display: none;
+  }
+  .arav {
+    margin-left: 5%;
+  }
+  .thelatest {
+    margin-left: 5%;
+  }
+  .pro16 {
+    width: 350px;
+    height: 400px;
+  }
+  .series10 {
+    width: 350px;
+    height: 400px;
+  }
+  .ipadmini {
+    width: 350px;
+    height: 400px;
+  }
+  .macbookpro {
+    width: 350px;
+    height: 400px;
+  }
+  .person {
+    margin-left: 5%;
+  }
+  .holiday {
+    margin-left: 5%;
+  }
+  .onlyatapple {
+    margin-left: 5%;
+  }
+  .the-apple {
+    margin-left: 5%;
+  }
+  .special-savings {
+    margin-left: 5%;
+  }
+  .quick {
+    margin-left: 5%;
+  }
+  .foot {
+    margin-left: 5%;
+  }
+}
